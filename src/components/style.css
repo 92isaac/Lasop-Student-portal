@@ -1,0 +1,99 @@
+.sign-up{
+    width: 100%;
+    display: flex;
+    background-color: #e5e5e5;
+    height: 100vh;
+
+    /* grid-template-columns: auto auto; */
+}
+.bg-image{
+    background: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    width: 50%;
+    margin: 10px 2px 10px 10px;
+    border-radius: 10px 0px 0 10px;
+
+}
+
+.text-bottom{
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+
+label{
+    display: block;
+}
+
+.form{
+    width: 50%;
+    margin: 10px 10px 10px 2px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 0px 10px 10px 0;
+    box-shadow: 0 1em 1em rgba(248, 247, 247, 0.1);
+}
+
+form{
+    margin-left: 10px;
+}
+
+form h1{
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 80%;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-field{
+    margin-bottom: 18px;
+}
+
+.input-field span{
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+    display: none;
+    font-size:10px
+}
+
+input:invalid[focus="true"] ~ span{
+    display: block;
+  }
+
+form input[type="tel"]{
+    width: 40%;
+    padding-left: 10px;
+}
+
+
+form input[type="checkbox"]{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+
+}
+.checkbox{
+    display: flex;
+}
+
+.checkbox label{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.btn{
+    margin-top: 30px;
+    background: #6371f7;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
